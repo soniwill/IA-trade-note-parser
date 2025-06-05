@@ -1,0 +1,43 @@
+tables:
+  Clear:
+    header_phrases:
+    - Q
+    - Negociação
+    - C/V
+    - Tipo mercado
+    - Prazo
+    - Especificação do título
+    - Obs. (*)
+    - Quantidade
+    - Preço / Ajuste
+    - Valor Operação / Ajuste
+    - D/C
+    header_y_filter:
+      min: null
+      max: null
+    y_jump_threshold: 15.0
+    page_number: 0
+    max_header_y_variance: 15.0
+    min_header_match_ratio: 0.7
+    header_context_words: []
+  Nubank:
+    header_phrases:
+    - Mercado
+    - C/V
+    - Tipo de Mercado
+    - Especificação do Título
+    - Observação
+    - Quantidade
+    - Preço/Ajuste
+    - Valor/Ajuste
+    - D/C
+    header_y_filter:
+      min: null
+      max: null
+    y_jump_threshold: 18.0
+    page_number: 0
+    max_header_y_variance: 15.0
+    min_header_match_ratio: 0.7
+    header_context_words: []
+
+ 
